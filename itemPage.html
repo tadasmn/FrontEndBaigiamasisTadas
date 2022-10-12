@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./itemPageStyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Item</title>
+  </head>
+  <body>
+    <section class="main-wrapper">
+      <header>
+        <div class="headerLeftSideWrapper">
+        <a href="/" class="logoarea">
+        <img href="/"; class="logo" src="/logo.png">
+        </a>
+        <p class="headerText">Lankomiausias skelbimų portalas</p>
+      </div>
+        <navbar>
+          <a class ="headerNav" href ="./index.html">Pagrindinis puslapis</a>
+          <a class ="headerNav" href ="#">Prisijungti</a>
+          <a class ="headerNav" href ="#">Registruotis</a>
+        </navbar>
+      </header>
+      <div class="menuBar">
+        <div class="addNewItemArea">
+        <a href="/addItem.html" class="addNewItem">
+        <i>+</i> Įdėkite skelbimą
+        </a>
+        </div>
+        <div class="filterArea">
+          <input type="text" placeholder="Paieška" class="finderInput">
+          <button type="submit" class="searchButton"> 
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+     <div class="item-wrapper">
+      <div id="itemImage" class="itemImage"></div>
+      <div class="itemInfo">
+      <div id="itemTitle" class="itemTitle"></div>
+      <div id="itemPrice" class="itemPrice"></div>
+      <div id="itemPlace" class="itemPlace"></div>
+      <div id="aboutItem" class="aboutItem"></div>
+      <button onclick="deleteItem(); timeOutFN()" id="deleteItem" class="deleteItem">Ištrinti prekę</button>
+        <button class="buyNowButton">Buy it now!</button>
+      </div>
+    </div>
+
+    
+    <h1 id="notification"></h1>
+      <footer>
+      <div class="footerText">
+      <p >Skelbiu.lt pagalba: +370 680 55000</p>
+      <p >Darbo laikas: I-V 08:20- 17:00</p>
+      </div>
+    </footer>
+    </section>
+    
+  </div>
+    <script src="./itemPage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+body {
+  margin:0;
+  display: flex;
+  justify-content: center;
+}
+.main-wrapper {
+  width: 70%;
+}
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.headerLeftSideWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+navbar {
+ padding-top: 40px;
+}
+.headerNav {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #666666;
+}
+.logoarea {
+  cursor:pointer;
+}
+.logo {
+  height: 80px;
+}
+.headerText {
+  display: flex;
+  font-size: 11px;
+  color: #359901;
+  font-weight: normal;
+  padding: 0;
+  width: 80px;
+}
+
+.menuBar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #ffcc00;
+  justify-content: space-between;
+}
+.addNewItemArea:hover {
+  box-shadow: 3px 6px #888888;
+}
+.addNewItemArea {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: #369a04;
+  border-radius: 3px;
+  width: 150px;
+}
+i {
+  font-size: 23px;
+  font-family: Arial;
+}
+.addNewItem {
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.finderInput {
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+}
+.searchButton {
+    float: right;
+    border: none;
+    color: #fff;
+    height: 36px;
+    border-radius: 3px;
+    width: 32px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #369a04;
+    margin-right: 10px;
+}
+.finderButton {
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itemPrice {
+  color: #666666;
+  text-align: center;
+  margin: auto;
+}
+.itemTitle {
+  color: #359901;
+  margin: left;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+.item {
+  display: grid;
+  grid-template-columns: 25% 45% 30%;
+  margin-bottom: 20px;
+  width: 90%;
+  border-top: #E6E6E6 1px solid;
+  padding-top: 5px;
+  background-color: #faf8f8;
+}
+.itemImageSection {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  cursor: pointer;
+}
+footer {
+  border-top: 5px solid #ffcc01;
+  background-color: #f5f4f3;
+  height: 86px;
+}
+.footerText {
+  margin-left: 20px;
+  font-size: 14px;
+}

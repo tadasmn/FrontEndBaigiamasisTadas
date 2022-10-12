@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./addItemStyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Skelbiu.lt</title>
+  </head>
+  <body>
+    <section class="main-wrapper">
+      <header>
+        <div class="headerLeftSideWrapper">
+        <a href="/"; class="logoarea">
+        <img href="/"; class="logo" src="/logo.png">
+        </a>
+        <p class="headerText">Lankomiausias skelbimų portalas</p>
+      </div>
+        <navbar>
+          <a class ="headerNav" href ="./index.html">Pagrindinis puslapis</a>
+        </navbar>
+      </header>
+      <div class="titleBar">
+          <h2>Pridėti prekę</h2>
+      </div>
+      <div class="wrapper">
+        <h1 id="notification"></h1>
+          <div class="itemAddForm">
+            <input type="text" placeholder="Pavadinimas" id="title"/>
+            <input type="text" placeholder="Kaina" id="price"/>
+            <input type="text" placeholder="Nuotraukos url" id="photo"/>
+            <textarea rows="4" cols="50"  id="about" placeholder="Daugiau apie prekę"></textarea>
+            <input type="text" placeholder="Pardavimo vieta" id="place"/>
+            <button onClick=addItem()>Pridėti prekę</button>
+        </div>
+      </div>
+      <footer>
+        <div class="footerText">
+        <p >Skelbiu.lt pagalba: +370 680 55000</p>
+        <p >Darbo laikas: I-V 08:20- 17:00</p>
+        </div>
+      </footer>
+    </section>
+    <script src="./addItem.js"></script>
+  </body>
+</html>

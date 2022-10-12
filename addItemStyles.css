@@ -1,0 +1,82 @@
+body {
+  margin:0;
+  display: flex;
+  justify-content: center;
+}
+.main-wrapper {
+  width: 70%;
+}
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.headerLeftSideWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+navbar {
+ padding-top: 40px;
+}
+.headerNav {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #666666;
+}
+.logoarea {
+  cursor:pointer;
+}
+.logo {
+  height: 80px;
+}
+.headerText {
+  display: flex;
+  font-size: 11px;
+  color: #359901;
+  font-weight: normal;
+  padding: 0;
+  width: 80px;
+}
+
+.titleBar {
+  display: flex;
+  height: 60px;
+  background-color: #ffcc00;
+  justify-content: center;
+}
+
+.itemAddForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+textarea {
+  width: 300px;
+}
+input{
+  width: 300px;
+}
+button {
+  background-color: #369a04;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 8px;
+  color: white;
+}
+
+  footer {
+    border-top: 5px solid #ffcc01;
+    background-color: #f5f4f3;
+    height: 86px;
+  }
+  .footerText {
+    margin-left: 20px;
+    font-size: 14px;
+  }
